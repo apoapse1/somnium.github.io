@@ -2,7 +2,7 @@
 layout: home
 title: Home
 nav_order: 1
-description: "Wildlander Knowledgebase."
+description: "Somnium database."
 permalink: /
 has_toc: true
 ---
