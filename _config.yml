@@ -1,8 +1,233 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+# IGNORE MOST OF THIS AS I'M STILL FIDDLING ABOUT
 
-url: https://wiki.scenicroute.games/
+title: Somnium Wiki
+description: Somnium Wiki
+theme: just-the-docs
+#remote_theme: just-the-docs\just-the-docs
+back_to_top: true
+back_to_top_text: "Back to top"
+
+url: https://scenicroute.github.io/
+
+# Pages in following directories will be excluded from the Export
+exclude:
+  - wip/
+
+search:
+  heading_level: 4
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# Footer content
+# appears at the bottom of every page's main content
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Copyright &copy; CHANGETHIS."
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  "News":
+    - "PATREON LINK"
+  "Download":
+    - "DOWNLOAD SOMNIUM"
+  "Media":
+    - "MEDIA PAGE"
+  "Roadmap":
+    - "ROADMAP"    
+    
+    
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/apoapse1/scenicroute.github.io" # the github URL for your repo
+gh_edit_branch: "main" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+   
+callouts_level: loud
+callouts:
+  highlight:
+    title: Notice
+    color: yellow
+  important:
+    title: Important
+    color: yellow
+  logfile:
+    title: Log Section
+    color: green
+  iniSetting:
+    title: INI Setting
+    color: green
+  alternative:
+    title: Alternative
+    color: green
+  console:
+    title: Console Commands
+    color: green    
+  hint:
+    title: Hint
+    color: green  
+  note:
+    title: Note
+    color: yellow
+  warning:
+    title: Warning
+    color: red
+  NoTitleYellow:
+    color: yellow
+  NoTitleGreen:
+    color: green
+    
+# Define Jekyll collections
+collections:
+  # Define a collection named "ClassGuides", its documents reside in the "_ClassGuides" directory
+  01Support:
+    permalink: "/:collection/:path/"
+    output: true
+  02BeginnersGuide:
+    permalink: "/:collection/:path/"
+    output: true
+  02-RecommendedReading:
+    permalink: "/:collection/:path/"
+    output: true
+  03-YourFirstCharacter:
+    permalink: "/:collection/:path/"
+    output: true
+  05-HintsandTips:
+    permalink: "/:collection/:path/"
+    output: true
+  04WildlanderWorld:
+    permalink: "/:collection/:path/"
+    output: true
+  06Dungeons:
+    permalink: "/:collection/:path/"
+    output: true
+  07-GearAnalysis:
+    permalink: "/:collection/:path/"
+    output: true
+  08-SkillAnalysis:
+    permalink: "/:collection/:path/"
+    output: true
+  09-How-Do-i:
+    permalink: "/:collection/:path/"
+    output: true
+  10-Crafting:
+    permalink: "/:collection/:path/"
+    output: true
+  11Deep-Dives:
+    permalink: "/:collection/:path/"
+    output: true
+  12Cheat-Sheets:
+    permalink: "/:collection/:path/"
+    output: true
+  13Community:
+    permalink: "/:collection/:path/"
+    output: true
+  14ModlistVersions:
+    permalink: "/:collection/:path/"
+    output: true
+  15ClassGuides:
+    permalink: "/:collection/:path/"
+    output: true
+  16OtherResources:
+    permalink: "/:collection/:path/"
+    output: true
+  17Bestiary:
+    permalink: "/:collection/:path/"
+    output: true
+   
+just_the_docs:
+  collections:
+    01Support:
+      name: Support Pages
+      nav_fold: true   
+    02BeginnersGuide:
+      name: Wildlander Basics
+      nav_fold: false   
+    02-RecommendedReading:
+      name: Recommended Reading
+      nav_hasparent: true   
+    03-YourFirstCharacter:
+      name: Your First Character
+      nav_hasparent: true   
+    05-HintsandTips:
+      name: Hints & Tips
+      nav_hasparent: true   
+    04WildlanderWorld:
+      name: Wildlander World
+      nav_fold: true   
+    06Dungeons:
+      name: Dungeon Analysis
+      nav_fold: true 
+    07-GearAnalysis:
+      name: Gear Analysis
+      nav_fold: true 
+    08-SkillAnalysis:
+      name: Skills & Perks
+      nav_fold: true 
+    09-How-Do-i:
+      name: How Do I?
+      nav_fold: true 
+    10-Crafting:
+      name: Crafting
+      nav_fold: true 
+    11Deep-Dives:
+      name: Mod Deep Dives
+      nav_fold: true 
+    12Cheat-Sheets:
+      name: Cheat Sheets
+      nav_fold: true 
+    13Community:
+      name: Community
+      nav_fold: true 
+    15ClassGuides:
+      name: Class Guides
+      nav_fold: true
+    14ModlistVersions:
+      name: Modlist & Change Logs
+      nav_fold: true  
+    16OtherResources:
+      name: Other Resources
+      nav_fold: true
+    17Bestiary:
+      name: Bestiary of Wildlander
+      nav_fold: false
+
+
+
+
+nav_external_links:
+  - title: Requiem WIKI [Reddit]
+    url: https://www.reddit.com/r/skyrimrequiem/wiki/index
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+  - title: UESP Interactive Skyrim Map
+    url: https://srmap.uesp.net/
+    hide_icon: false # set to true to hide the external link icon - defaults to false   
+  - title: UESP Interactive Solstheim Map
+    url: https://dbmap.uesp.net/
+    hide_icon: false # set to true to hide the external link icon - defaults to false   
+  - title: UESP Skill Book locations
+    url: https://en.uesp.net/wiki/Skyrim:Skill_Books
+    hide_icon: false # set to true to hide the external link icon - defaults to false  
+  - title: UESP Wiki 
+    url: https://en.uesp.net/wiki/Main_Page
+    hide_icon: false # set to true to hide the external link icon - defaults to false      
+  - title: Skyrim Random Character Generator - Wildlander Edition 
+    url: https://docs.google.com/spreadsheets/d/1vhTgVT3SoMtaE_LDpY_3Tb40zrhoBW4Lz4k-_8PWkWs/edit#gid=0
+    hide_icon: false # set to true to hide the external link icon - defaults to false      
+    
+    
+# Google Analytics Tracking (optional)
+# Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
+ga_tracking: G-DSSX8SK5DC
+#ga_tracking_anonymize_ip: nil  # Use GDPR compliant Google Analytics settings (true/nil by default)
