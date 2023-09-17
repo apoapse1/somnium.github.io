@@ -1,11 +1,10 @@
-# IGNORE MOST OF THIS AS I'M STILL FIDDLING ABOUT
-
 title: Somnium Wiki
 description: Somnium Wiki
 theme: just-the-docs
 #remote_theme: just-the-docs\just-the-docs
 back_to_top: true
 back_to_top_text: "Back to top"
+# color_scheme: ???
 
 url: https://scenicroute.github.io/
 
@@ -37,13 +36,13 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 
 aux_links:
   "News":
-    - "PATREON LINK"
+    - "https://www.patreon.com/scenicroutegames"
   "Download":
-    - "DOWNLOAD SOMNIUM"
+    - "https://www.scenicroute.games/projects/somnium"
   "Media":
-    - "MEDIA PAGE"
-  "Roadmap":
-    - "ROADMAP"    
+    - "https://www.scenicroute.games/blog-posts/current-news"
+# "Roadmap":
+#    - "ROADMAP"    
     
     
 # Footer "Edit this page on GitHub" link text
@@ -207,25 +206,10 @@ just_the_docs:
 
 
 nav_external_links:
-  - title: Requiem WIKI [Reddit]
-    url: https://www.reddit.com/r/skyrimrequiem/wiki/index
-    hide_icon: false # set to true to hide the external link icon - defaults to false
-  - title: UESP Interactive Skyrim Map
-    url: https://srmap.uesp.net/
-    hide_icon: false # set to true to hide the external link icon - defaults to false   
-  - title: UESP Interactive Solstheim Map
-    url: https://dbmap.uesp.net/
-    hide_icon: false # set to true to hide the external link icon - defaults to false   
-  - title: UESP Skill Book locations
-    url: https://en.uesp.net/wiki/Skyrim:Skill_Books
-    hide_icon: false # set to true to hide the external link icon - defaults to false  
-  - title: UESP Wiki 
-    url: https://en.uesp.net/wiki/Main_Page
-    hide_icon: false # set to true to hide the external link icon - defaults to false      
-  - title: Skyrim Random Character Generator - Wildlander Edition 
-    url: https://docs.google.com/spreadsheets/d/1vhTgVT3SoMtaE_LDpY_3Tb40zrhoBW4Lz4k-_8PWkWs/edit#gid=0
-    hide_icon: false # set to true to hide the external link icon - defaults to false      
-    
+#  - title: Requiem WIKI [Reddit]
+#    url: https://www.reddit.com/r/skyrimrequiem/wiki/index
+#    hide_icon: false # set to true to hide the external link icon - defaults to false
+     
     
 # Google Analytics Tracking (optional)
 # Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
