@@ -1,36 +1,73 @@
----
-layout: home
-title: Home
-nav_order: 1
-description: "Somnium Knowledgebase."
-permalink: /
-has_toc: true
----
+# Introduction
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+**A small request: if you enjoy my work, please consider contributing to
+my Patreon page at the link below. Although I certainly don\'t expect
+any donations from users, these sorts of contributions allow me to
+continue improving and supporting our modlists.**
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+[Patreon
+Link](https://www.patreon.com/scenicroutegames?fan_landing=true)
 
-More specifically, the created site:
+## Preamble
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+![Banner](https://cdn.discordapp.com/attachments/819785065700655104/932776024398241802/Start_Screen.png){.align-center}
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+```{=html}
+<div align="center"><b>With big thanks to the Somnium design team at Scenic Route Games. And a special thanks and acknowledgement to: Ixion XVII for all of his Enderal Gameplay Overhaul (EGO) mods and helpful advice, JDsmith for Enderal - My Way and providing us with the bones of Somnium. </b></div>
+<br/>
+```
+*A flock of gulls brays against the clouds and a man stumbles through
+the streets. He mumbles against the world, his words just incantations
+of other lives. They strike someone and crash to the cobbles. Panic puts
+him quickly to his feet. The woman is yelling something about bees, but
+he hardly hears her. His eyes dart to the shadows where it hides. He
+can\'t see it, but he can feel the scorching oppression of its gaze. It
+shouldn\'t be here. The apartment is not far. The shadows goad him as he
+flees, their hungry eyes drool into the folds of dead banners and the
+cracks of brick and stone. His feet find their way home despite his
+thoughts. He crashes up the stairs and locks himself into the safety of
+home. Yet even here the chimes can find him. He throws open cupboards,
+earthenware and glass rain and pool at his feet. There it is. A light at
+sea. Greedy, shaking fingers bring glass lips to his own, eagerly
+accepting ambrosia\'s kiss. He slumps to the floor. His blood flees
+through scattered cuts as he becomes whole again.*
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+```{=html}
+<div align="center"> This is Somnium </div>
+```
+If you\'re reading this, then there\'s a good chance that you\'ve played
+or heard of our other project, Librum. While that project focuses on a
+comprehensive adaption of Tamriel\'s northern province into a harsh,
+survival experience, Somnium seeks instead to provide players with an
+overhauled and new take on the world of Enderal and Vyn.
 
-To get started with creating a site, just click "[use this template]"!
+Somnium is a thrilling experience that blends elements of horror into
+the action/adventure of Enderal. The world of Vyn has been
+re-interpreted to a new age, one where the destructive power of black
+powder has shown the door to old methods of violence and warfare. One
+where print has given a new voice to the powerful and the downtrodden.
+It is a world on the cusp of its own industrial revolution. To this end
+the atmosphere of the game has been crafted to push the story of a
+society slowly ripping itself apart. Fear and control, or a loss
+thereof, are important themes to the story told in Enderal, and this
+re-imagining of setting allows these to play out in unique ways.
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+At its heart, Somnium is about the Arcane Fever. The ever-present
+monkey\'s paw to the Prophet\'s newfound magical powers. Regardless of
+your playstyle in Somnium you will build up this fever, and as it builds
+you will become subjected to increasingly irate anomalies. These may
+begin simply as a chirp of windchimes, but if it is left to grow the
+character will slip further and further from a grounded take on their
+surroundings. The world is ending, but you may lose yourself before that
+comes.
 
-----
+## Credits and Thanks
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+We couldn\'t have accomplished all of this without the team at Scenic
+Route Games. They have been a huge part of this process, both creatively
+and in developing the modlist and its associated resources.
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+## Contact
+
+For any questions, comments, or suggestions, please join [Apoapse\'s
+Discord server](https://discord.gg/3f8vPYFmJX).
