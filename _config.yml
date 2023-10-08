@@ -102,7 +102,7 @@ just_the_docs:
   collections:
     01-Support:
       name: Support Pages
-      nav_fold: false   
+      nav_fold: true   
     02-Gameplay&Features:
       name: Gameplay and Features
       nav_fold: true   
