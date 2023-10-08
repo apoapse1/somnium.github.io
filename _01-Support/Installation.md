@@ -1,3 +1,11 @@
+---
+layout: default
+title: Installtion
+has_toc: false
+has_children: false
+description: Installtion
+---
+
 # Installation
 
 Somnium makes use of the excellent
