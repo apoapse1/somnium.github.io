@@ -144,11 +144,11 @@ collections:
    
 just_the_docs:
   collections:
-    01Support:
+    01-Support:
       name: Support Pages
       nav_fold: true   
-    02BeginnersGuide:
-      name: Wildlander Basics
+    02-Gameplay&Features:
+      name: Gameplay and Features
       nav_fold: false   
     02-RecommendedReading:
       name: Recommended Reading
