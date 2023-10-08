@@ -90,13 +90,10 @@ callouts:
 # Define Jekyll collections
 collections:
   # Define a collection named "ClassGuides", its documents reside in the "_ClassGuides" directory
-  0_Home:
+  01-Support:
     permalink: "/:collection/:path/"
     output: true
-  02BeginnersGuide:
-    permalink: "/:collection/:path/"
-    output: true
-  02-RecommendedReading:
+  02-Gameplay&Features:
     permalink: "/:collection/:path/"
     output: true
   03-YourFirstCharacter:
