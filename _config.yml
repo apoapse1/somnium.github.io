@@ -35,11 +35,11 @@ last_edit_timestamp: true # show or hide edit time - page must have `last_modifi
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
 aux_links:
-  "News":
+  "Patreon":
     - "https://www.patreon.com/scenicroutegames"
   "Download":
     - "https://www.scenicroute.games/projects/somnium"
-  "Media":
+  "News":
     - "https://www.scenicroute.games/blog-posts/current-news"
   "Discord":
     - "https://discord.com/invite/nAQWr4VmG6"    
@@ -96,51 +96,7 @@ collections:
   02-Gameplay&Features:
     permalink: "/:collection/:path/"
     output: true
-  03-YourFirstCharacter:
-    permalink: "/:collection/:path/"
-    output: true
-  05-HintsandTips:
-    permalink: "/:collection/:path/"
-    output: true
-  04WildlanderWorld:
-    permalink: "/:collection/:path/"
-    output: true
-  06Dungeons:
-    permalink: "/:collection/:path/"
-    output: true
-  07-GearAnalysis:
-    permalink: "/:collection/:path/"
-    output: true
-  08-SkillAnalysis:
-    permalink: "/:collection/:path/"
-    output: true
-  09-How-Do-i:
-    permalink: "/:collection/:path/"
-    output: true
-  10-Crafting:
-    permalink: "/:collection/:path/"
-    output: true
-  11Deep-Dives:
-    permalink: "/:collection/:path/"
-    output: true
-  12Cheat-Sheets:
-    permalink: "/:collection/:path/"
-    output: true
-  13Community:
-    permalink: "/:collection/:path/"
-    output: true
-  14ModlistVersions:
-    permalink: "/:collection/:path/"
-    output: true
-  15ClassGuides:
-    permalink: "/:collection/:path/"
-    output: true
-  16OtherResources:
-    permalink: "/:collection/:path/"
-    output: true
-  17Bestiary:
-    permalink: "/:collection/:path/"
-    output: true
+ 
    
 just_the_docs:
   collections:
@@ -149,55 +105,8 @@ just_the_docs:
       nav_fold: true   
     02-Gameplay&Features:
       name: Gameplay and Features
-      nav_fold: false   
-    02-RecommendedReading:
-      name: Recommended Reading
-      nav_hasparent: true   
-    03-YourFirstCharacter:
-      name: Your First Character
-      nav_hasparent: true   
-    05-HintsandTips:
-      name: Hints & Tips
-      nav_hasparent: true   
-    04WildlanderWorld:
-      name: Wildlander World
       nav_fold: true   
-    06Dungeons:
-      name: Dungeon Analysis
-      nav_fold: true 
-    07-GearAnalysis:
-      name: Gear Analysis
-      nav_fold: true 
-    08-SkillAnalysis:
-      name: Skills & Perks
-      nav_fold: true 
-    09-How-Do-i:
-      name: How Do I?
-      nav_fold: true 
-    10-Crafting:
-      name: Crafting
-      nav_fold: true 
-    11Deep-Dives:
-      name: Mod Deep Dives
-      nav_fold: true 
-    12Cheat-Sheets:
-      name: Cheat Sheets
-      nav_fold: true 
-    13Community:
-      name: Community
-      nav_fold: true 
-    15ClassGuides:
-      name: Class Guides
-      nav_fold: true
-    14ModlistVersions:
-      name: Modlist & Change Logs
-      nav_fold: true  
-    16OtherResources:
-      name: Other Resources
-      nav_fold: true
-    17Bestiary:
-      name: Bestiary of Wildlander
-      nav_fold: false
+    
 
 
 
