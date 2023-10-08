@@ -1,3 +1,12 @@
+---
+layout: home
+title: Home
+nav_order: 1
+description: "Somnium Knowledgebase."
+permalink: /
+has_toc: true
+---
+
 # Introduction
 
 **A small request: if you enjoy my work, please consider contributing to
