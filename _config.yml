@@ -1,10 +1,10 @@
-title: Somnium Wiki
-description: Somnium Wiki
+title: Scenic Route Wiki
+description: Scenic Route Wiki
 theme: just-the-docs
 #remote_theme: just-the-docs\just-the-docs
 back_to_top: true
 back_to_top_text: "Back to top"
-color_scheme: scenicroute-dark
+color_scheme: scenicroute
 
 url: https://wiki.scenicroute.games/
 
@@ -28,7 +28,7 @@ search:
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "Copyright &copy; CHANGETHIS."
+footer_content: "Copyright &copy; Scenic Route Games."
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -37,12 +37,12 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 aux_links:
   "Patreon":
     - "https://www.patreon.com/scenicroutegames"
-  "Download":
-    - "https://www.scenicroute.games/projects/somnium"
-  "News":
-    - "https://www.scenicroute.games/blog-posts/current-news"
+  "Reddit":
+    - "https://www.reddit.com/r/skyrim/"
   "Discord":
     - "https://discord.com/invite/nAQWr4VmG6"    
+  "News":
+    - "https://www.scenicroute.games/blog-posts/current-news"
     
     
 # Footer "Edit this page on GitHub" link text
@@ -90,31 +90,30 @@ callouts:
 # Define Jekyll collections
 collections:
   # Define a collection named "ClassGuides", its documents reside in the "_ClassGuides" directory
-  01-Support:
-    permalink: "/:collection/:path/"
+  Somnium:
     output: true
-  02-Gameplay&Features:
-    permalink: "/:collection/:path/"
+  Librum:
     output: true
  
    
 just_the_docs:
   collections:
-    01-Support:
-      name: Support Pages
-      nav_fold: true   
-    02-Gameplay&Features:
-      name: Gameplay and Features
-      nav_fold: true   
+    Somnium:
+      name: Somnium
+      nav_fold: true
+    Librum:
+      name: Librum
+      nav_fold: true
+    
     
 
 
 
 
-nav_external_links:
+# nav_external_links:
 #  - title: Requiem WIKI [Reddit]
 #    url: https://www.reddit.com/r/skyrimrequiem/wiki/index
-#    hide_icon: false # set to true to hide the external link icon - defaults to false
+#    hide_icon: true # set to true to hide the external link icon - defaults to false
      
     
 # Google Analytics Tracking (optional)

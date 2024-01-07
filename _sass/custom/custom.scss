@@ -78,7 +78,7 @@ iframe {
 }
 
 .search-input {
-	color: #f4abff;
+	color: #ffffff;
     font-weight: bold;
     font-size: 16px;
 }
@@ -88,12 +88,12 @@ table {
   display: table;
   min-width: 25%;
   border-collapse: separate;
-  border: 2px #50098A solid;
+  border: 2px #3d1616 solid;
 }
 
 th {
    min-width: 50px;
-   background-color:#50098A;
+   background-color:#3d1616;
    color: #ffffff;
    font-weight: bold;
    text-align:center;
@@ -112,7 +112,7 @@ td {
 code {
     white-space : pre-wrap !important;
     word-break: break-word;
-    background-color:#462B53;
+    background-color:#3d1616;
     color: #ffffff;
     font-family:system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,sans-serif;
 }
@@ -121,14 +121,14 @@ code {
 pre {
     white-space : pre-wrap !important;
     word-break: break-word;
-    background-color:#462B53;
+    background-color:#3d1616;
     color: #ffffff;
     font-family:system-ui,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,sans-serif;
 }
 
 .highlight,
 pre.highlight {
-    background-color: #462B53;
+    background-color: #3d1616;
     white-space : pre-wrap !important;
     word-break: break-word;
     color: #ffffff;
@@ -156,7 +156,7 @@ background: transparent;
 }
 
 .site-button:hover {
-	color: #f4abff;
+	color: #ff9900;
 }
 
 
@@ -192,7 +192,7 @@ background: transparent;
   text-align: start;
   text-transform: uppercase;
   border-bottom: $border $border-color;
-  color: #f4abff;
+  color: #ffffff;
 
   @include mq(md) {
     padding-right: $gutter-spacing;
@@ -234,7 +234,7 @@ background: transparent;
 	h5,
 	h6
 	{
-	  color: #f4abff;
+	  color: #ffffff;
 	  font-family: Averta, sans-serif;
 	}
 	
@@ -378,4 +378,51 @@ background: transparent;
   padding: 12px 20px 12px 40px; /* Add some padding */
   border: 1px solid #ddd; /* Add a grey border */
   margin-bottom: 12px; /* Add some space below the input */
+}
+
+// body {
+//   //background: #240b08;
+//   position: relative;
+// }
+
+// body::before {
+//   content: ""; /* Add an empty content property to generate the pseudo-element */
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 500px;
+//   background: linear-gradient(rgba(0, 0, 0, .57), rgba(0, 0, 0, .57) 78%, #1c0f0f 98%), url("https://assets-global.website-files.com/622e8d53f14b8d8aaa3ff4cc/62434ea974ab3394f932c5ba_Scenic_Route_Games.png");
+//   background-repeat: no-repeat;
+//   background-attachment: scroll;
+//   background-position: center top;
+//   background-size: auto;
+// }
+
+// body {
+//   background-color: #1c0f0f;
+//   background-image: linear-gradient(rgba(28, 15, 15, .57), rgba(28, 15, 15, .57)), url("https://assets-global.website-files.com/622e8d53f14b8d8aaa3ff4cc/62434ea974ab3394f932c5ba_Scenic_Route_Games.png");
+//   background-repeat: no-repeat;
+//   background-size: contain;
+// }
+
+.hero {
+  min-height: 340px;
+  display: flex;         // Add flex display
+  align-items: flex-end;  // Align items to the bottom
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, .57), rgba(0, 0, 0, .57) 78%, #1c0f0f 98%), url("https://assets-global.website-files.com/622e8d53f14b8d8aaa3ff4cc/62434ea974ab3394f932c5ba_Scenic_Route_Games.png");
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+  box-sizing: border-box;
+}
+
+.w-inline-block {
+  max-width: 100%;
+  padding-left: 2rem;
+  padding-bottom: 3rem;
+}
+
+.site-nav {
+  padding-top: 1rem;
 }
