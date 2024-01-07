@@ -6,6 +6,9 @@
     </a>
   </div>
   <nav aria-label="Main" id="site-nav" class="site-nav">
+    <a href="https://www.scenicroute.games/" class="w-inline-block">
+      <img width="80" alt="" src="https://assets-global.website-files.com/622e8d53f14b8d8aaa3ff4cc/62309a6429f1f629dde32745_LOGOMARK.png" loading="lazy" class="image">
+    </a>
     {% assign pages_top_size = site.html_pages
           | where_exp:"item", "item.title != nil"
           | where_exp:"item", "item.parent == nil"
@@ -55,24 +58,6 @@
         {% endif %}
       {% endfor %}
     {% endif %}
-	
-	<ul class="nav-category">
-		<br>
-		<div class="nav-category">External Links</div>
-	</ul>
-	
-	{%- if site.nav_external_links -%}
-      <ul class="nav-list">
-        {%- for node in site.nav_external_links -%}
-          <li class="nav-list-item external">
-            <a href="{{ node.url | absolute_url }}" class="nav-list-link external">
-              {{ node.title }}
-              {% unless node.hide_icon %}<svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title"><use xlink:href="#svg-external-link"></use></svg>{% endunless %}
-            </a>
-          </li>
-        {%- endfor -%}
-      </ul>
-    {%- endif -%}
   </nav>
 
   {% capture nav_footer_custom %}
