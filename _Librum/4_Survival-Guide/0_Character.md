@@ -46,7 +46,7 @@ Here are a few things to note about the Glade:
 
 ### Use the Character Creation hub!
 
-**Use the Character Creation hub!** To keep track of the immense customizability of your starting build, there is a [Librum Character Creation page](https://librum-modpack.com/?page_id=296)! There you can find a list of every race, birthsign, faith, and trait, as well as a character builder tool where you can see your selections all in one place. Feel free to share your build on the Librum Discord or Subreddit, too!
+**Use the Character Creation hub!** To keep track of the immense customizability of your starting build, there is a [Librum Character Creation page](https://docs.google.com/spreadsheets/d/12VVxB2zlJvt5goVE5cDjmlmpqYGjcs9vo9NWZyEFcGI/)! There you can find a list of every race, birthsign, faith, and trait, as well as a character builder tool where you can see your selections all in one place. Feel free to share your build on the Librum Discord or Subreddit, too!
 
 ### Starting Locations
 
